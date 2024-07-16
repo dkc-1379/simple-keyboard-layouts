@@ -29,3 +29,22 @@ body {
   border-top-left-radius: 0px;
   border-top-right-radius: 0px;
 }
+
+.hg-button-space {
+  width: 70%;
+}
+
+.hg-button[data-skbtn="{en}"],
+.hg-button[data-skbtn="{kh}"] {
+  width: 10%;
+}
+.hg-button[data-skbtn="{space}"] {
+  min-width: 80%;
+}
+.hg-layout-en-lock .hg-row .hg-button[data-skbtn="{lock}"],
+.hg-layout-kh-lock .hg-row .hg-button[data-skbtn="{lock}"],
+.hg-layout-kh-shift .hg-row .hg-button[data-skbtn="{shift}"],
+.hg-layout-kh-shift-lock .hg-row .hg-button[data-skbtn="{lock}"],
+.hg-layout-kh-shift-lock .hg-row .hg-button[data-skbtn="{shift}"] {
+  background-color: #D8D8D8 !important;
+}
